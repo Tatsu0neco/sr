@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Привет!</title>
-<link rel="stylesheet" href="bluestyle.css">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Семантическая верстка и SEO-оптимизация</title>
+    <meta name="description" content="Пример веб-сайта с семантической версткой и SEO-оптимизацией.">
+    <meta name="keywords" content="семантическая верстка, SEO, веб-сайт">
+    <!-- Фавикон -->
+    <link rel="icon" href="favicon.ico" type="image/ico">
+    <!-- Стили -->
+    <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://your-site.com",
+            "name": "Семантическая верстка и SEO-оптимизация",
+            "description": "Пример веб-сайта с семантической версткой и SEO-оптимизацией."
+        }
+    </script>
 </head>
 <body>
-<h1>Добрый день!</h1>
-<p>Простая страница для Git</p>
-<p>Просто новая строка в нашем файле!</p>
+    <header>
+        <nav>
+            <a href="#header">Назад к заголовку</a>
+            <a href="#main">К основному контенту</a>
+            <a href="#footer">К подвалу</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <h1>Пример веб-сайта с семантической версткой и SEO-оптимизацией</h1>
+        <section>
+            <h2>Секция 1</h2>
+            <p>Лorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et mauris vel velit fringilla bibendum. Sed eget erat et arcu consequat aliquet.</p>
+            <img src="example.jpg" alt="Пример изображения" title="Это изображение иллюстрирует текст">
+        </section>
+        <section>
+            <h2>Секция 2</h2>
+            <p>Etiam vel sem ac lacus ultrices euismod. Sed ac eros vel nisl tempor fringilla. Nullam eget lectus sed urna congue bibendum.</p>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2022 Пример веб-сайта с семантической версткой и SEO-оптимизацией. Все права защищены.</p>
+    </footer>
 </body>
 </html>
